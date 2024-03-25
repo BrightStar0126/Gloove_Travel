@@ -217,7 +217,7 @@ function TourCart() {
             className="trip-search-section shape-search-section"
             style={{ padding: "0px" }}
           >
-            <div className="slider-shape"></div>
+            <div className="slider-shape" style={{marginTop: "-110px"}}></div>
           </div>
           {/* Inner Banner html end*/}
           {/* packages html start */}
@@ -280,7 +280,7 @@ function TourCart() {
                       <thead>
                         <tr>
                           <th />
-                          <th>nombre del producto</th>
+                          <th>Vivienda</th>
                           <th>Precio</th>
                           <th>Cantidad</th>
                           <th>Subtotal</th>
@@ -330,14 +330,14 @@ function TourCart() {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="tengo un cupon de desc"
+                        placeholder="Tengo un cupón de descuento"
                       />
                       <a href="#" className="outline-primary">
-                        Aplicar cupén
+                      Aplicar cupón
                       </a>
                     </div>
                     <a href="#" className="outline-primary update-btn">
-                      actualzacién de la compra
+                    Actualización de la compra
                     </a>
                   </div>
                   <div className="totalAmountArea">
@@ -349,7 +349,7 @@ function TourCart() {
                         <strong>IVA</strong> <span>$ 18.00</span>
                       </li>
                       <li>
-                        <strong>Gran total</strong>{" "}
+                        <strong>Total</strong>{" "}
                         <span className="grandTotal">$ 4012.00</span>
                       </li>
                     </ul>

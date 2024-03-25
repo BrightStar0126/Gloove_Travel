@@ -146,11 +146,11 @@ const Footer = () => {
                 </aside>
               </div>
               <div className="col-lg-4 col-md-6">
-                <aside className="widget widget_text">
+                <aside className="widget widget_text" style={{height: "100%"}}>
                   {/* <h3 className="widget-title">CONTACT INFORMATION</h3> */}
-                  <div className="textwidget widget-text">
+                  <div className="textwidget widget-text" style={{height: "100%"}}>
                     {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */}
-                    <ul>
+                    <ul style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-around", height: "100%"}}>
                       <li
                         style={{
                           textAlign: "center",
@@ -159,7 +159,7 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Centro de ayuda
+                        Inicio
                         </a>
                       </li>
                       <li
@@ -170,7 +170,7 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Quienes somos
+                        Reservas
                         </a>
                       </li>
                       <li
@@ -181,7 +181,7 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Preguntas frecuentes
+                        Experiencias
                         </a>
                       </li>
                       <li
@@ -192,7 +192,7 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Trabaja con nosotros
+                        Sobre nosotros
                         </a>
                       </li>
                       <li
@@ -203,7 +203,7 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Nuestro Blog
+                        Blog
                         </a>
                       </li>
                       <li
@@ -214,10 +214,10 @@ const Footer = () => {
                         }}
                       >
                         <a href="#" style={{ color: "#156B7A" }}>
-                          Noticias
+                        Contacto
                         </a>
                       </li>
-                      <li
+                      {/* <li
                         style={{
                           textAlign: "center",
                           fontSize: "16px",
@@ -227,20 +227,20 @@ const Footer = () => {
                         <a href="#" style={{ color: "#156B7A" }}>
                           CONTACTANOS
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </aside>
               </div>
               <div className="col-lg-4 col-md-6">
-                <aside className="widget widget_recent_post">
+                <aside className="widget widget_recent_post" style={{display: "flex", flexDirection:"column", justifyContent: "space-between"}}>
                   <h3
                     className=""
-                    style={{ textAlign: "center", color: "#156B7A" }}
+                    style={{ textAlign: "center", color: "#156B7A", marginBottom: "0px" }}
                   >
                     SIGUENOS EN:
                   </h3>
-                  <ul>
+                  <ul style={{height: "80%", display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
                     <li
                       style={{
                         display: "flex",
@@ -290,7 +290,7 @@ const Footer = () => {
                         }}
                       />
                     </li>
-                    <li
+                    {/* <li
                       style={{
                         display: "flex",
                         justifyContent: "center",
@@ -307,7 +307,7 @@ const Footer = () => {
                           backgroundColor: "#156B7A",
                         }}
                       />
-                    </li>
+                    </li> */}
                     <li
                       style={{
                         display: "flex",

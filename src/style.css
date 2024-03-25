@@ -9864,7 +9864,7 @@ product checkout css
 }
 
 .widget.widget_text ul {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .widget.widget_text ul li {

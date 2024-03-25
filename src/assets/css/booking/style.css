@@ -11378,7 +11378,7 @@ a.img-icon-zoom {
 
 .widget {
     margin-bottom: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .widget h4 {

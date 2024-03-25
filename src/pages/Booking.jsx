@@ -214,7 +214,7 @@ function Booking() {
           className="trip-search-section shape-search-section"
           style={{ padding: "0px" }}
         >
-          <div className="slider-shape"></div>
+          <div className="slider-shape" style={{marginTop: "-110px"}}></div>
           {/* <div className="container">
               <div className="trip-search-inner white-bg d-flex">
                 <div className="input-group">
@@ -267,7 +267,7 @@ function Booking() {
               <div className="col-lg-3">
                 <div
                   className="item_filter_group"
-                  style={{ backgroundColor: "#156B7A", padding: "15px" }}
+                  style={{ backgroundColor: "#156B7A", padding: "15px", width: "320px", marginLeft: "-20px" }}
                 >
                   {/* <div className="de-box mb25"> */}
                   <form name="contactForm" id="contact_form" method="post">
@@ -309,7 +309,7 @@ function Booking() {
                         className="col-lg-6 mb20"
                         style={{ paddingRight: "0px" }}
                       >
-                        <h5 style={{ color: "white" }}>Fecha de entrada</h5>
+                        <h5 style={{ color: "white" }}>Fecha de check-in</h5>
                         <div className="date-time-field">
                           <input
                             type="text"
@@ -450,7 +450,7 @@ function Booking() {
                       >
                         <div>
                           <h5 style={{ color: "white", paddingBottom: "0px" }}>
-                            Rooms
+                          No habitaciones
                           </h5>
                           <select
                             name="Pick Up Time"
@@ -459,6 +459,7 @@ function Booking() {
                               padding: "1px",
                               borderRadius: "5px",
                               height: "30px",
+                              width: "100%"
                             }}
                           >
                             <option disabled="" value="Select time">
@@ -472,7 +473,7 @@ function Booking() {
                         </div>
                         <div>
                           <h5 style={{ color: "white", paddingBottom: "0px" }}>
-                            Adults
+                          Adultos
                           </h5>
                           <select
                             name="Pick Up Time"
@@ -494,7 +495,7 @@ function Booking() {
                         </div>
                         <div>
                           <h5 style={{ color: "white", paddingBottom: "0px" }}>
-                            Children
+                          Niños
                           </h5>
                           <select
                             name="Pick Up Time"
@@ -516,7 +517,7 @@ function Booking() {
                         </div>
                       </div>
                     </div>
-                    <h4 style={{ color: "white" }}>Companies</h4>
+                    <h4 style={{ color: "white" }}>Filtros</h4>
                     <div className="de_form">
                       {criteria &&
                         criteria.company.list.map((item, index) => {
@@ -570,10 +571,11 @@ function Booking() {
                         color: "white",
                         backgroundColor: "#EE3388",
                         cursor: "pointer",
+                        fontSize: "20px"
                       }}
                       className="btn-main btn-fullwidth"
                     >
-                      Book Now
+                      Buscar
                     </a>
                     <div className="clearfix" />
                   </form>

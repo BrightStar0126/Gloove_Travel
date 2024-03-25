@@ -1,5 +1,5 @@
 export const getAccomodations = async () => {
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/accommodations`;
+  const url = `e824-83-234-227-28.ngrok-free.app/accommodations`;
   const res = await fetch(url, { method: "get",
   headers: {
     "Content-Type": "application/json",
@@ -11,7 +11,7 @@ export const getAccomodations = async () => {
 };
 
 export const getDescriptions = async () => {
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/descriptions`;
+  const url = `e824-83-234-227-28.ngrok-free.app/descriptions`;
   const res = await fetch(url, { method: "get",
   headers: {
     "Content-Type": "application/json",
@@ -23,7 +23,7 @@ export const getDescriptions = async () => {
 };
 
 export const openBooking = async (adaptedURI) => {
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/booking/open`;
+  const url = `e824-83-234-227-28.ngrok-free.app/booking/open`;
   const res = await fetch(url, {
     method: "post",
     headers: {
@@ -41,7 +41,7 @@ export const openBooking = async (adaptedURI) => {
 
 export const deleteBooking = async (adaptedURI) => {
   console.log(adaptedURI);
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/booking/delete`;
+  const url = `e824-83-234-227-28.ngrok-free.app/booking/delete`;
   const res = await fetch(url, {
     method: "post",
     headers: {
@@ -58,7 +58,7 @@ export const deleteBooking = async (adaptedURI) => {
 };
 
 export const openAllBooking = async () => {
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/booking/openAll`;
+  const url = `e824-83-234-227-28.ngrok-free.app/booking/openAll`;
   const res = await fetch(url, {
     method: "get",
     headers: {
@@ -73,7 +73,7 @@ export const openAllBooking = async () => {
 
 export const insertBooking = async (bookingDataMenu) => {
   console.log("bookingData>>", bookingDataMenu);
-  const url = `https://df6a-83-234-227-28.ngrok-free.app/booking/insert`;
+  const url = `e824-83-234-227-28.ngrok-free.app/booking/insert`;
   const res = await fetch(url, {
     method: "post",
     headers: {

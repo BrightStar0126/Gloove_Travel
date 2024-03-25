@@ -72,7 +72,12 @@ function CarSingle() {
     const returnDate = returnDateRef.current.value;
     const pickupTime = pickupTimeRef.current.value;
     const returnTime = returnTimeRef.current.value;
-    if (adults === "" || children === "" || pickupTime === "Select time" || returnTime === "Select time") {
+    if (
+      adults === "" ||
+      children === "" ||
+      pickupTime === "Select time" ||
+      returnTime === "Select time"
+    ) {
       toast.error("Complete todos los archivos.");
     } else {
       const bookingData = {
@@ -138,9 +143,12 @@ function CarSingle() {
     }
   };
   useEffect(() => {
-    if(localBookingMenu) if(localBookingMenu.length === 0) {
-      toast.info("Por favor agregue a su carrito de compras y haga una reserva.");
-    }
+    if (localBookingMenu)
+      if (localBookingMenu.length === 0) {
+        toast.info(
+          "Por favor agregue a su carrito de compras y haga una reserva."
+        );
+      }
   }, [localBookingMenu]);
 
   return (
@@ -282,7 +290,7 @@ function CarSingle() {
           className="trip-search-section shape-search-section"
           style={{ padding: "0px" }}
         >
-          <div className="slider-shape"></div>
+          <div className="slider-shape" style={{marginTop: "-110px"}}></div>
           {/* <div className="container">
               <div className="trip-search-inner white-bg d-flex">
                 <div className="input-group">
@@ -353,15 +361,20 @@ function CarSingle() {
               <div className="col-lg-3">
                 <h3>{accommodation && accommodation["AccommodationName"]}</h3>
                 <p>
-                  The BMW M2 is the high-performance version of the 2 Series
-                  2-door coupé. The first generation of the M2 is the F87 coupé
-                  and is powered by turbocharged.
+                  Bonita vivienda de 3 dormitorios en una magnifica y tranquila
+                  urbanización de lujo. Cuenta con cuatro piscinas increíbles
+                  dentro de la misma urbanización, pista de tenis, pista de
+                  baloncesto, zona infantil, zona deportiva en interior,
+                  panadería y magnifico restaurante donde podrás compartir tus
+                  mejores momentos con una carta espectacular para desayunos,
+                  comidas y cenas.
+                  Urbanización tranquila, rodeada de paraje Natural Clot de Glvany.
                 </p>
                 <div className="spacer-10" />
-                <h4>Specifications</h4>
+                <h4>Especificaciones</h4>
                 <div className="de-spec">
                   <div className="d-row">
-                    <span className="d-title">Body</span>
+                    <span className="d-title">Piscina</span>
                     <span className="d-value">Sedan</span>
                   </div>
                   <div className="d-row">
@@ -373,7 +386,7 @@ function CarSingle() {
                     <span className="d-value">2 doors</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Luggage</span>
+                    <span className="d-title">Acceso Internet</span>
                     <span className="d-value">150</span>
                   </div>
                   <div className="d-row">
@@ -381,7 +394,7 @@ function CarSingle() {
                     <span className="d-value">Hybird</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Engine</span>
+                    <span className="d-title">Jardín</span>
                     <span className="d-value">3000</span>
                   </div>
                   <div className="d-row">
@@ -389,7 +402,7 @@ function CarSingle() {
                     <span className="d-value">2020</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Mileage</span>
+                    <span className="d-title">Aparcamiento</span>
                     <span className="d-value">200</span>
                   </div>
                   <div className="d-row">
@@ -397,7 +410,7 @@ function CarSingle() {
                     <span className="d-value">Automatic</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Drive</span>
+                    <span className="d-title">Habitacion/es</span>
                     <span className="d-value">4WD</span>
                   </div>
                   <div className="d-row">
@@ -405,21 +418,28 @@ function CarSingle() {
                     <span className="d-value">18.5</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Exterior Color</span>
+                    <span className="d-title">1 Cama Matrimonio</span>
                     <span className="d-value">Blue Metalic</span>
                   </div>
                   <div className="d-row">
-                    <span className="d-title">Interior Color</span>
+                    <span className="d-title">4 Camas Individuales</span>
                     <span className="d-value">Black</span>
                   </div>
                 </div>
                 <div className="spacer-single" />
-                <h4>Features</h4>
+                <h4>Cocina independiente (Inducción)</h4>
                 <ul className="ul-style-2">
-                  <li>Bluetooth</li>
-                  <li>Multimedia Player</li>
-                  <li>Central Lock</li>
-                  <li>Sunroof</li>
+                  <li>Nevera</li>
+                  <li>Microondas</li>
+                  <li>Horno</li>
+                  <li>Congelador</li>
+                  <li>Vajilla/Cubertería</li>
+                  <li>Utensilios/Cocina</li>
+                  <li>Cafetera</li>
+                </ul>
+                <h4>Baños</h4>
+                <ul className="ul-style-2">
+                  <li>1 Baño Con Ducha</li>
                 </ul>
               </div>
               <div className="col-lg-3">

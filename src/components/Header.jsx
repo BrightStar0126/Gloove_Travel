@@ -107,7 +107,7 @@ const Header = ({ head, description }) => {
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="#">Tour</a>
+                    <a href="#">Reservas</a>
                     <ul>
                       <li>
                         <a href="destination.html">Destination</a>
@@ -266,7 +266,7 @@ const Header = ({ head, description }) => {
                         <a href="admin/db-wishlist.html">Wishlist</a>
                       </li>
                       <li>
-                        <a href="admin/login.html">Login</a>
+                        <a href="admin/login.html">Buscar</a>
                       </li>
                       <li>
                         <a href="admin/forgot.html">Forget Password</a>
@@ -369,12 +369,12 @@ const Header = ({ head, description }) => {
                     <li>
                       <a
                         className="menu-item"
-                        href="index.html"
+                        href="#"
                         style={{ color: "white", fontSize: "20px" }}
                       >
                         Inicio
                       </a>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <a className="menu-item" href="02_dark-index-1.html">
                             New: Homepage 1 Dark
@@ -415,30 +415,30 @@ const Header = ({ head, description }) => {
                             Homepage 6
                           </a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <a
                         className="menu-item"
-                        href="cars.html"
+                        href="/booking"
                         style={{ color: "white", fontSize: "20px" }}
                       >
-                        Tour Información
+                        Reservas
                       </a>
                       <ul>
                         <li>
                           <a className="menu-item" href="/tour">
-                            Tour
+                            Reservas
                           </a>
                         </li>
                         <li>
                           <a className="menu-item" href="/tour-cart">
-                            Tour Carrito
+                          Reservas Carrito
                           </a>
                         </li>
                         <li>
                           <a className="menu-item" href="/tour-booking">
-                          Tour Reservas
+                          Reservas Reservas
                           </a>
                         </li>
                         <li>
@@ -446,7 +446,7 @@ const Header = ({ head, description }) => {
                             className="menu-item"
                             href="/tour-confirm"
                           >
-                            Tour Confirmación
+                            Reservas Confirmación
                           </a>
                         </li>
                       </ul>
@@ -454,7 +454,7 @@ const Header = ({ head, description }) => {
                     <li>
                       <a
                         className="menu-item"
-                        href="booking.html"
+                        href="/tour"
                         style={{ color: "white", fontSize: "20px" }}
                       >
                         Experiencias
@@ -468,7 +468,7 @@ const Header = ({ head, description }) => {
                       >
                         Sobre nosotros
                       </a>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <a
                             className="menu-item"
@@ -492,7 +492,7 @@ const Header = ({ head, description }) => {
                             My Favorite Cars
                           </a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <a
@@ -502,7 +502,7 @@ const Header = ({ head, description }) => {
                       >
                         Blog
                       </a>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <a className="menu-item" href="about.html">
                             About Us
@@ -515,7 +515,7 @@ const Header = ({ head, description }) => {
                         </li>
                         <li>
                           <a className="menu-item" href="login.html">
-                            Login
+                            Buscar
                           </a>
                         </li>
                         <li>
@@ -528,7 +528,7 @@ const Header = ({ head, description }) => {
                             Page 404
                           </a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <a
@@ -538,7 +538,7 @@ const Header = ({ head, description }) => {
                       >
                         Contacto
                       </a>
-                      <ul>
+                      {/* <ul>
                         <li>
                           <a
                             className="menu-item"
@@ -607,7 +607,7 @@ const Header = ({ head, description }) => {
                             </li>
                           </ul>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     {/* <li>
                   <a className="menu-item" href="#">
@@ -713,7 +713,7 @@ const Header = ({ head, description }) => {
                           marginTop: "4px",
                         }}
                       />
-                      Login
+                      Buscar
                     </button>
                     <span id="menu-btn" />
                   </div>

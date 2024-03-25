@@ -87,7 +87,8 @@ function Landing() {
                           Maximiza el potencial de tu propiedad con Gloove
                         </h2>
                         <p>
-                          Gestión experta, ingresos optimizados y tranquilidad
+                          Nos encargamos de todo para que disfrutes
+                          tranquilamente de tus beneficios y tengas tranquilidad
                           total
                         </p>
                         {/* <a href="#" className="button-primary">
@@ -102,7 +103,7 @@ function Landing() {
                   <div
                     className="banner-inner-wrap"
                     style={{
-                      backgroundImage: "url(./images/slider-2.png)",
+                      backgroundImage: "url(./images/slider-2.PNG)",
                       backgroundSize: "cover !important",
                     }}
                   ></div>
@@ -113,11 +114,10 @@ function Landing() {
                           className="banner-title"
                           style={{ fontSize: "70px" }}
                         >
-                          Maximiza el potencial de tu propiedad con Gloove
+                          Bienvenidos a nuestras viviendas
                         </h2>
                         <p>
-                          Gestión experta, ingresos optimizados y tranquilidad
-                          total
+                        ¡Disfruta de tus vacaciones con Gloove tu Alojamiento Turístico!
                         </p>
                         {/* <a href="#" className="button-primary">
                           CONTINUE READING
@@ -189,7 +189,7 @@ function Landing() {
             className="trip-search-section shape-search-section"
             style={{ padding: "0px" }}
           >
-            <div className="slider-shape"></div>
+            <div className="slider-shape" style={{marginTop: "-110px"}}></div>
             <div className="container">
               <div className="trip-search-inner white-bg d-flex">
                 <div className="input-group">
@@ -197,11 +197,11 @@ function Landing() {
                   <input type="text" name="s" placeholder="Enter Destination" />
                 </div>
                 <div className="input-group">
-                  <label> Número de persona* </label>
-                  <input type="text" name="s" placeholder="No.of People" />
+                  <label> No de personas* </label>
+                  <input type="text" name="s" placeholder="No de personas" />
                 </div>
                 <div className="input-group width-col-3">
-                  <label> Comprobar en la fecha* </label>
+                  <label> Fecha de check-in* </label>
                   <i className="far fa-calendar"></i>
                   <input
                     className="input-date-picker"
@@ -213,7 +213,7 @@ function Landing() {
                   />
                 </div>
                 <div className="input-group width-col-3">
-                  <label> Echa un vistazo a la fecha* </label>
+                  <label> Fecha de check-out* </label>
                   <i className="far fa-calendar"></i>
                   <input
                     className="input-date-picker"
@@ -229,7 +229,8 @@ function Landing() {
                   <input
                     type="submit"
                     name="travel-search"
-                    value="INQUIRE NOW"
+                    value="Buscar"
+                    style={{ fontSize: "20px" }}
                   />
                 </div>
               </div>
@@ -244,19 +245,22 @@ function Landing() {
                     className="dash-style"
                     style={{ fontSize: "28px", color: "#156B7A" }}
                   >
-                    Explora nuestras viviendas: Espacios únicos donde cada casa
-                    cuenta una historia
+                    Nuestras viviendas vacacionales: Espacios únicos donde cada
+                    casa cuenta una historia
                   </h3>
                   <div className="col-lg-7">
                     <h2>Nuestras mejores viviendas</h2>
                   </div>
-                  <div className="col-lg-5">
+                  <div className="col-lg-5" style={{ height: "100%" }}>
                     <div
                       className="section-disc"
-                      style={{ textAlign: "center", color: "black" }}
+                      style={{
+                        textAlign: "center",
+                        color: "black",
+                        marginBottom: "20px",
+                      }}
                     >
-                      Convierte tu propiedad en una experiencia inolvidable para
-                      cada huésped
+                      Consigue la máxima rentabilidad con la mínima interacción
                     </div>
                   </div>
                 </div>
@@ -268,14 +272,16 @@ function Landing() {
                       <div className="col-sm-6">
                         <div className="desti-item overlay-desti-item">
                           <figure className="desti-image">
-                            <img src="./images/app-img-1.jpg" alt="" />
+                            <img src="./images/app (1).png" alt="" />
                           </figure>
                           <div className="meta-cat bg-meta-cat">
-                            <a href="#">THAILAND</a>
+                            <a href="#">VILLAJOYOSA</a>
                           </div>
                           <div className="desti-content">
                             <h3>
-                              <a href="#">Disney Land</a>
+                              <a href="#" style={{ color: "#156B7A" }}>
+                                Paradise Home
+                              </a>
                             </h3>
                             <div
                               className="rating-start"
@@ -289,14 +295,16 @@ function Landing() {
                       <div className="col-sm-6">
                         <div className="desti-item overlay-desti-item">
                           <figure className="desti-image">
-                            <img src="./images/app-img-2.jpg" alt="" />
+                            <img src="./images/app (2).png" alt="" />
                           </figure>
                           <div className="meta-cat bg-meta-cat">
-                            <a href="#">NORWAY</a>
+                            <a href="#">ARENALES DEL SOL</a>
                           </div>
                           <div className="desti-content">
                             <h3>
-                              <a href="#">Besseggen Ridge</a>
+                              <a href="#" style={{ color: "#156B7A" }}>
+                                Arenales Beach House
+                              </a>
                             </h3>
                             <div
                               className="rating-start"
@@ -314,14 +322,16 @@ function Landing() {
                       <div className="col-md-6 col-xl-12">
                         <div className="desti-item overlay-desti-item">
                           <figure className="desti-image">
-                            <img src="./images/man-3.png" alt="" />
+                            <img src="./images/landscape (1).png" alt="" />
                           </figure>
                           <div className="meta-cat bg-meta-cat">
-                            <a href="#">NEW ZEALAND</a>
+                            <a href="#">GRAN ALACANT</a>
                           </div>
                           <div className="desti-content">
                             <h3>
-                              <a href="#">Oxolotan City</a>
+                              <a href="#" style={{ color: "#156B7A" }}>
+                                Relaxing Sea Views
+                              </a>
                             </h3>
                             <div
                               className="rating-start"
@@ -335,14 +345,16 @@ function Landing() {
                       <div className="col-md-6 col-xl-12">
                         <div className="desti-item overlay-desti-item">
                           <figure className="desti-image">
-                            <img src="./images/man-4.png" alt="" />
+                            <img src="./images/landscape (2).png" alt="" />
                           </figure>
                           <div className="meta-cat bg-meta-cat">
-                            <a href="#">SINGAPORE</a>
+                            <a href="#">VILLAJOYOSA</a>
                           </div>
                           <div className="desti-content">
                             <h3>
-                              <a href="#">Marina Bay Sand City</a>
+                              <a href="#" style={{ color: "#156B7A" }}>
+                                Luxe Beach Three
+                              </a>
                             </h3>
                             <div
                               className="rating-start"
@@ -762,7 +774,7 @@ function Landing() {
                 style={{ marginBottom: "0px" }}
               >
                 <div className="row">
-                  <h3
+                  {/* <h3
                     className="dash-style"
                     style={{
                       color: "#156B7A",
@@ -773,7 +785,7 @@ function Landing() {
                     }}
                   >
                     Nuestro Éxito en el Alojamiento Turístico
-                  </h3>
+                  </h3> */}
                   <div className="col-lg-8 offset-lg-2">
                     <h3>¿CÓMO FUNCIONAMOS?</h3>
                     {/* <p>
@@ -809,9 +821,9 @@ function Landing() {
                     <div className="activity-content">
                       <h5 style={{ color: "#156B7A" }}>
                         Una vez se firma el contrato, <br />
-                        procedemos a la realizaciön <br />
+                        procedemos a la realización <br />
                         de las fotos y el pedido de la <br />
-                        domötica
+                        domótica
                       </h5>
                     </div>
                   </div>
@@ -836,7 +848,7 @@ function Landing() {
                     <div className="activity-content">
                       <h5 style={{ color: "#156B7A" }}>
                         Pasados unos dias, <br />
-                        instalamos la domética en la <br />
+                        instalamos la domótica en la <br />
                         propiedad y ultimamos todo <br />
                         tipo de detalles
                       </h5>
@@ -916,7 +928,7 @@ function Landing() {
                     </div>
                     <div className="activity-content">
                       <h5 style={{ color: "#156B7A" }}>
-                        Pasados unos dia la vivienda <br />
+                        Pasados unos días la vivienda <br />
                         comienza a generar sus <br />
                         primeros ingresos
                       </h5>
@@ -1001,100 +1013,100 @@ function Landing() {
                       slidesToSlide={1}
                     >
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-1.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-2.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-3.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-4.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-5.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-1.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-2.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-3.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-4.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
                         </figure>
                       </div>
                       <div className="client-item">
-                        <figure style={{padding: "0px 20px"}}>
+                        <figure style={{ padding: "0px 20px" }}>
                           <img
                             src="./images/client-logo-5.png"
-                            style={{scale: "1.8"}}
+                            style={{ scale: "1.8" }}
                             alt=""
                             draggable={false}
                           />
@@ -1119,10 +1131,10 @@ function Landing() {
                         margin: "20px auto",
                       }}
                     >
-                      Tecnología más avanzada
+                      Trabajamos de la mano de la tecnología más avanzada
                     </h3>
                     <h3 style={{ color: "black", wordSpacing: "5px" }}>
-                      EL MEJOR PRECIO DEL MERCADO
+                      NUESTRAS TARIFAS
                     </h3>
                     {/* <p>
                       Mollit voluptatem perspiciatis convallis elementum
@@ -1134,7 +1146,14 @@ function Landing() {
                 </div>
               </div>
               <div className="special-inner" style={{ marginTop: "50px" }}>
-                <div className="row" style={{ height: "fit-content", width: "90%", margin: "auto" }}>
+                <div
+                  className="row"
+                  style={{
+                    height: "fit-content",
+                    width: "90%",
+                    margin: "auto",
+                  }}
+                >
                   <div className="col-md-6 col-lg-6">
                     <div
                       className="special-item"
@@ -1159,7 +1178,7 @@ function Landing() {
                         </div>
                         <h3>
                           <a href="#" style={{ color: "white" }}>
-                            Gest ión Integral
+                            Gestión
                           </a>
                         </h3>
                         <div className="package-price">
@@ -1178,7 +1197,7 @@ function Landing() {
                                 textShadow: "0 0px 10px rgba(255,255,255,1)",
                               }}
                             >
-                              • Gestidn de limpieza, lavanderia y mantenimiento.{" "}
+                              • Gestión de limpieza, lavandería y mantenimiento{" "}
                               <br />
                               • Amenities y Kits de Bienvenida
                               <br />
@@ -1229,7 +1248,7 @@ function Landing() {
                         </div>
                         <h3>
                           <a href="#" style={{ color: "white" }}>
-                            Gest ión Básica
+                            Gestión
                           </a>
                         </h3>
                         <div className="package-price">
@@ -1488,15 +1507,13 @@ function Landing() {
                         </figure>
                         <div className="testimonial-content">
                           <p>
-                            " Dolorum aenean dolorem minima! Voluptatum?
-                            Corporis condimentum ac primis fusce, atque!
-                            Vivamus. Non cupiditate natus excepturi, quod quo,
-                            aute facere? Deserunt aliquip, egestas ipsum,
-                            eu.Dolorum aenean dolorem minima!? Corporis condi
-                            mentum acpri! "
+                            " Por primera vez conseguí aumentar
+                            considerablemente la rentabilidad de mi vivienda en
+                            Villajoyosa. Cuando las cosas se hacen bien, se
+                            nota… "
                           </p>
                           <cite style={{ fontStyle: "normal" }}>
-                            Johny English
+                            Amadeo Cortell
                             <span
                               className="company"
                               style={{ color: "black", fontStyle: "normal" }}
@@ -1512,15 +1529,12 @@ function Landing() {
                         </figure>
                         <div className="testimonial-content">
                           <p>
-                            " Dolorum aenean dolorem minima! Voluptatum?
-                            Corporis condimentum ac primis fusce, atque!
-                            Vivamus. Non cupiditate natus excepturi, quod quo,
-                            aute facere? Deserunt aliquip, egestas ipsum,
-                            eu.Dolorum aenean dolorem minima!? Corporis condi
-                            mentum acpri! "
+                            " Sin duda la tecnología es el factor más
+                            diferenciador de este gestor. De empresaria a
+                            empresarios doy mi más sincera enhorabuena. "
                           </p>
                           <cite style={{ fontStyle: "normal" }}>
-                            William Housten
+                            Elvira Cañamero
                             <span
                               className="company"
                               style={{ color: "black", fontStyle: "normal" }}
@@ -1536,15 +1550,11 @@ function Landing() {
                         </figure>
                         <div className="testimonial-content">
                           <p>
-                            " Dolorum aenean dolorem minima! Voluptatum?
-                            Corporis condimentum ac primis fusce, atque!
-                            Vivamus. Non cupiditate natus excepturi, quod quo,
-                            aute facere? Deserunt aliquip, egestas ipsum,
-                            eu.Dolorum aenean dolorem minima!? Corporis condi
-                            mentum acpri! "
+                            " Maravillosa experiencia. Muy atento y cercano todo
+                            el equipo. Los recomiendo "
                           </p>
                           <cite>
-                            Alison Wright
+                            Santiago Esparza
                             <span className="company">Travel Guide</span>
                           </cite>
                         </div>

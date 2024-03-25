@@ -236,7 +236,7 @@ function TourBooking() {
             className="trip-search-section shape-search-section"
             style={{ padding: "0px" }}
           >
-            <div className="slider-shape"></div>
+            <div className="slider-shape" style={{marginTop: "-110px"}}></div>
           </div>
           {/* Inner Banner html end*/}
           {/* packages html start */}
@@ -247,7 +247,7 @@ function TourBooking() {
             <div className="container">
               <div className="step-link-wrap" style={{ position: "relative" }}>
                 <div className="step-item active" id="step-item1">
-                  tu carrito
+                Mi carrito
                   <a
                     href="#"
                     className="step-icon"
@@ -355,7 +355,7 @@ function TourBooking() {
                         </div>
                         <div className="col-sm-6">
                           <div className="form-group">
-                            <label>Correo electrénico*</label>
+                            <label>Correo electrónico*</label>
                             <input
                               type="email"
                               className="form-control"
@@ -365,7 +365,7 @@ function TourBooking() {
                         </div>
                         <div className="col-sm-6">
                           <div className="form-group">
-                            <label>Confirmar correo electrénico* </label>
+                            <label>Confirmar correo electrónico* </label>
                             <input
                               type="email"
                               className="form-control"
@@ -473,7 +473,7 @@ function TourBooking() {
                                       alt="ccv"
                                       style={{ width: "auto" }}
                                     />
-                                    <small>Last 3 digits</small>
+                                    <small>Últimos tres dígitos</small>
                                   </div>
                                 </div>
                               </div>
@@ -481,7 +481,7 @@ function TourBooking() {
                           </div>
                         </div>
                       </div>
-                      <div className="info-content">
+                      {/* <div className="info-content">
                         <h4>O checkout con Paypal</h4>
                         <p>
                           Lorem ipsum dolor sit amet, vim id accusata sensibus,
@@ -495,7 +495,7 @@ function TourBooking() {
                             style={{ width: "auto" }}
                           />
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="booking-content">
                       <div className="form-title">
@@ -612,9 +612,9 @@ function TourBooking() {
                           </tr>
                           <tr>
                             <td>
-                              <strong>tax</strong>
+                              <strong>IVA</strong>
                             </td>
-                            <td className="text-right">13%</td>
+                            <td className="text-right">21%</td>
                           </tr>
                           <tr className="total">
                             <td>
@@ -634,9 +634,9 @@ function TourBooking() {
                       <div className="support-content">
                         <h5>AYUDA Y APOYO</h5>
                         <a href="telto:12345678" className="phone">
-                          +11 234 889 00
+                        +34 676 149 978
                         </a>
-                        <small>De lunes a viernes 9.00am - 7.30pm</small>
+                        <small>De lunes a domingo 24 horas</small>
                       </div>
                     </div>
                   </aside>

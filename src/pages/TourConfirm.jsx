@@ -236,7 +236,7 @@ function TourConfirm() {
             className="trip-search-section shape-search-section"
             style={{ padding: "0px" }}
           >
-            <div className="slider-shape"></div>
+            <div className="slider-shape" style={{marginTop: "-110px"}}></div>
           </div>
           {/* Inner Banner html end*/}
           {/* packages html start */}
@@ -345,7 +345,7 @@ function TourConfirm() {
                         <table className="table">
                           <tbody>
                             <tr>
-                              <td>Identificacién de reserva: </td>
+                              <td>Identificación de reserva </td>
                               <td>999-QSDE-55</td>
                             </tr>
                             <tr>
@@ -353,11 +353,11 @@ function TourConfirm() {
                               <td>John</td>
                             </tr>
                             <tr>
-                              <td>Apelldo:</td>
+                              <td>Apellidos</td>
                               <td>Doe</td>
                             </tr>
                             <tr>
-                              <td>Correo electrénic:</td>
+                              <td>Correo electrónico</td>
                               <td>info@travele.com</td>
                             </tr>
                             <tr>
@@ -365,19 +365,19 @@ function TourConfirm() {
                               <td>977 - 222 - 444 - 666</td>
                             </tr>
                             <tr>
-                              <td>Namero de tarjeta</td>
+                              <td>Número de tarjeta</td>
                               <td>XXX-XXXX-XXX-03</td>
                             </tr>
                             <tr>
-                              <td>Pais:</td>
+                              <td>País</td>
                               <td>London</td>
                             </tr>
                             <tr>
-                              <td>Cédigo postal </td>
+                              <td>Código postal </td>
                               <td>44500</td>
                             </tr>
                             <tr>
-                              <td>DIRECCION</td>
+                              <td>Dirección</td>
                               <td>445 Mount Eden Road, london, borfish</td>
                             </tr>
                           </tbody>
@@ -428,9 +428,9 @@ function TourConfirm() {
                               </tr>
                               <tr>
                                 <td>
-                                  <strong>tax</strong>
+                                  <strong>IVA</strong>
                                 </td>
-                                <td className="text-right">13%</td>
+                                <td className="text-right">21%</td>
                               </tr>
                               <tr className="total">
                                 <td>
@@ -450,9 +450,9 @@ function TourConfirm() {
                           <div className="support-content">
                             <h5>AYUDA Y APOYO</h5>
                             <a href="telto:12345678" className="phone">
-                              +11 234 889 00
+                              +34 676 149 978
                             </a>
-                            <small>De lunes a viernes 9.00am - 7.30pm</small>
+                            <small>De lunes a domingo 24 horas</small>
                           </div>
                         </div>
                       </aside>

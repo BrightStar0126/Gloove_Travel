@@ -236,7 +236,7 @@ function Tour() {
             className="trip-search-section shape-search-section"
             style={{ padding: "0px" }}
           >
-            <div className="slider-shape"></div>
+            <div className="slider-shape" style={{marginTop: "-110px"}}></div>
             <div className="container">
               <div className="trip-search-inner white-bg d-flex">
                 <div className="input-group">
