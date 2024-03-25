@@ -800,7 +800,7 @@ function Landing() {
                     >
                       <a href="#">
                         <img
-                          src="./images/bot-10.png"
+                          src="./images/bot(1).gif"
                           alt=""
                           style={{ width: "200px" }}
                         />
@@ -827,7 +827,7 @@ function Landing() {
                     >
                       <a href="#">
                         <img
-                          src="./images/bot-20.png"
+                          src="./images/bot(2).gif"
                           alt=""
                           style={{ width: "200px" }}
                         />
@@ -854,7 +854,7 @@ function Landing() {
                     >
                       <a href="#">
                         <img
-                          src="./images/bot-30.png"
+                          src="./images/bot(3).gif"
                           alt=""
                           style={{ width: "200px" }}
                         />
@@ -881,7 +881,7 @@ function Landing() {
                     >
                       <a href="#">
                         <img
-                          src="./images/bot-40.png"
+                          src="./images/bot(4).gif"
                           alt=""
                           style={{ width: "200px" }}
                         />
@@ -908,7 +908,7 @@ function Landing() {
                     >
                       <a href="#">
                         <img
-                          src="./images/bot-50.png"
+                          src="./images/bot(5).gif"
                           alt=""
                           style={{ width: "200px" }}
                         />
